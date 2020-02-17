@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Enter a few numbers:");
+        System.out.println("Enter a few numbers and enter 'q' to quit:");
         Scanner scan = new Scanner(System.in);
 
         int[] numbers = new int[0];
