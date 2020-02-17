@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Enter a few numbers and enter 'q' to quit:");
+        System.out.println("Enter a few numbers and enter 'q' or 'Q' to quit:");
         Scanner scan = new Scanner(System.in);
 
         int[] numbers = new int[0];
@@ -20,7 +20,7 @@ public class Main {
         }
 
         //calculate maximum
-        int checkMax = 0;
+        int checkMax = Integer.MIN_VALUE;
 
         for (int i = 0; i < numbers.length; i++) {
             if (checkMax < numbers[i]) {
